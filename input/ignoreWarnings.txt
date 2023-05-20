@@ -7,3 +7,4 @@
 # CDA type names have _ in them
 Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters or code generation tools may be broken' Failed
 The Implementation Guide contains no examples for this profile
+
