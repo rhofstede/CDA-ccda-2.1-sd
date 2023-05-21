@@ -37,7 +37,7 @@
       <definition value="SHALL contain exactly one [1..1] @classCode=&quot;OBS&quot; (CodeSystem: HL7ActClass urn:oid:2.16.840.1.113883.5.6 STATIC) (CONF:4537-7480)." />
       <min value="1" />
       <max value="1" />
-      <patternString value="OBS" />
+      <patternCode value="OBS" />
     </element>
     <element id="Observation.moodCode">
       <path value="Observation.moodCode" />
@@ -45,7 +45,7 @@
       <definition value="SHALL contain exactly one [1..1] @moodCode=&quot;EVN&quot; (CodeSystem: HL7ActMood urn:oid:2.16.840.1.113883.5.1001 STATIC) (CONF:4537-7481)." />
       <min value="1" />
       <max value="1" />
-      <patternString value="EVN" />
+      <patternCode value="EVN" />
     </element>
     <element id="Observation.templateId">
       <path value="Observation.templateId" />
@@ -72,7 +72,6 @@
     </element>
     <element id="Observation.templateId:templateId1.root">
       <path value="Observation.templateId.root" />
-      <sliceName value="templateId1" />
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.10.20.22.4.19&quot; (CONF:4537-10502)." />
       <min value="1" />
@@ -81,7 +80,6 @@
     </element>
     <element id="Observation.templateId:templateId1.extension">
       <path value="Observation.templateId.extension" />
-      <sliceName value="templateId1" />
       <short value="extension" />
       <definition value="SHALL contain exactly one [1..1] @extension=&quot;2023-05-01&quot; (CONF:4537-32570)." />
       <min value="1" />
@@ -140,6 +138,8 @@
         <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.7.4" />
       </binding>
     </element>
+    <!-- TODO: some types on Observation.value either don't allow or don't have translation.
+    Need to determine which types to support, or remove the requirement on translation
     <element id="Observation.value.translation">
       <path value="Observation.value.translation" />
       <slicing>
@@ -151,7 +151,7 @@
       </slicing>
       <definition value="The value, if present, MAY contain zero or more [0..*] translation (CONF:4537-32975) such that it" />
     </element>
-    <element id="value.Observation.value.translation:translation1">
+    <element id="Observation.value.translation:translation1">
       <path value="Observation.value.translation" />
       <sliceName value="translation1" />
       <short value="translation" />
@@ -159,13 +159,13 @@
       <min value="0" />
       <max value="*" />
     </element>
-    <element id="value.Observation.value.translation:translation1.code">
+    <element id="Observation.value.translation:translation1.code">
       <path value="Observation.value.translation.code" />
-      <sliceName value="translation1" />
       <short value="code" />
       <definition value="SHALL contain exactly one [1..1] @code, which SHALL be selected from CodeSystem ICD-10-CM (urn:oid:2.16.840.1.113883.6.90) DYNAMIC (CONF:4537-32976)." />
       <min value="1" />
       <max value="1" />
     </element>
+    -->
   </differential>
 </StructureDefinition>

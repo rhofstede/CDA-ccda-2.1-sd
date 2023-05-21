@@ -72,10 +72,6 @@
     </element>
     <element id="Section.code">
       <path value="Section.code" />
-      <definition value="SHALL contain exactly one [1..1] code (CONF:4515-5) such that it" />
-    </element>
-    <element id="Section.code">
-      <path value="Section.code" />
       <short value="code" />
       <definition value="SHALL contain exactly one [1..1] code (CONF:4515-5) such that it" />
       <min value="1" />

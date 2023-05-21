@@ -56,7 +56,7 @@
     </element>
     <element id="Author.templateId:templateId1.root">
       <path value="Author.templateId.root" />
-      <sliceName value="templateId1" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.10.20.22.5.6&quot; (CONF:4515-15)." />
       <min value="1" />
@@ -65,7 +65,7 @@
     </element>
     <element id="Author.templateId:templateId1.extension">
       <path value="Author.templateId.extension" />
-      <sliceName value="templateId1" />
+      
       <short value="extension" />
       <definition value="SHALL contain exactly one [1..1] @extension=&quot;2019-10-01&quot; (CONF:4515-36)." />
       <min value="1" />
@@ -119,7 +119,7 @@
     </element>
     <element id="assignedAuthor.Author.assignedAuthor.id:id2.nullFlavor">
       <path value="Author.assignedAuthor.id.nullFlavor" />
-      <sliceName value="id2" />
+      
       <short value="nullFlavor" />
       <definition value="MAY contain zero or one [0..1] @nullFlavor=&quot;UNK&quot; Unknown (CodeSystem: HL7NullFlavor urn:oid:2.16.840.1.113883.5.1008) (CONF:4515-21)." />
       <min value="0" />
@@ -128,7 +128,7 @@
     </element>
     <element id="assignedAuthor.Author.assignedAuthor.id:id2.root">
       <path value="Author.assignedAuthor.id.root" />
-      <sliceName value="id2" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.4.6&quot; National Provider Identifier (CONF:4515-22)." />
       <min value="1" />
@@ -137,7 +137,6 @@
     </element>
     <element id="assignedAuthor.Author.assignedAuthor.id:id2.extension">
       <path value="Author.assignedAuthor.id.extension" />
-      <sliceName value="id2" />
       <short value="extension" />
       <definition value="SHOULD contain zero or one [0..1] @extension (CONF:4515-23)." />
       <min value="0" />
@@ -237,7 +236,7 @@
     </element>
     <element id="assignedAuthor.representedOrganization.Author.assignedAuthor.representedOrganization.id:id1.nullFlavor">
       <path value="Author.assignedAuthor.representedOrganization.id.nullFlavor" />
-      <sliceName value="id1" />
+      
       <short value="nullFlavor" />
       <definition value="MAY contain zero or one [0..1] @nullFlavor=&quot;UNK&quot; Unknown (CodeSystem: HL7NullFlavor urn:oid:2.16.840.1.113883.5.1008) (CONF:4515-25)." />
       <min value="0" />
@@ -246,7 +245,7 @@
     </element>
     <element id="assignedAuthor.representedOrganization.Author.assignedAuthor.representedOrganization.id:id1.root">
       <path value="Author.assignedAuthor.representedOrganization.id.root" />
-      <sliceName value="id1" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.4.2&quot; Tax ID Number (CONF:4515-26)." />
       <min value="1" />
@@ -255,7 +254,6 @@
     </element>
     <element id="assignedAuthor.representedOrganization.Author.assignedAuthor.representedOrganization.id:id1.extension">
       <path value="Author.assignedAuthor.representedOrganization.id.extension" />
-      <sliceName value="id1" />
       <short value="extension" />
       <definition value="SHOULD contain zero or one [0..1] @extension (CONF:4515-32982)." />
       <min value="0" />
@@ -271,7 +269,7 @@
     </element>
     <element id="assignedAuthor.representedOrganization.Author.assignedAuthor.representedOrganization.id:id2.nullFlavor">
       <path value="Author.assignedAuthor.representedOrganization.id.nullFlavor" />
-      <sliceName value="id2" />
+      
       <short value="nullFlavor" />
       <definition value="MAY contain zero or one [0..1] @nullFlavor=&quot;UNK&quot; Unknown (CodeSystem: HL7NullFlavor urn:oid:2.16.840.1.113883.5.1008) (CONF:4515-29)." />
       <min value="0" />
@@ -280,7 +278,7 @@
     </element>
     <element id="assignedAuthor.representedOrganization.Author.assignedAuthor.representedOrganization.id:id2.root">
       <path value="Author.assignedAuthor.representedOrganization.id.root" />
-      <sliceName value="id2" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.4.6&quot; National Provider Identifier  (CONF:4515-30)." />
       <min value="1" />
@@ -289,7 +287,6 @@
     </element>
     <element id="assignedAuthor.representedOrganization.Author.assignedAuthor.representedOrganization.id:id2.extension">
       <path value="Author.assignedAuthor.representedOrganization.id.extension" />
-      <sliceName value="id2" />
       <short value="extension" />
       <definition value="SHOULD contain zero or one [0..1] @extension (CONF:4515-31)." />
       <min value="0" />

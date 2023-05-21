@@ -179,6 +179,9 @@
             <requirements value="SHOULD contain zero or one [0..1] effectiveTime (CONF:1098-7513) such that it"/>
             <min value="0"/>
             <max value="1"/>
+            <type>
+                <code value="http://hl7.org/fhir/cda/StructureDefinition/SXCM-TS" />
+            </type>
             <constraint>
                 <key value="1098-28499"/>
                 <severity value="error"/>
@@ -190,7 +193,7 @@
             <requirements value="SHALL contain exactly one [1..1] @operator=&quot;A&quot; (CONF:1098-9106)."/>
             <min value="1"/>
             <max value="1"/>
-            <patternString value="A"/>
+            <patternCode value="A"/>
         </element>
         <element id="SubstanceAdministration.repeatNumber">
             <path value="SubstanceAdministration.repeatNumber"/>

@@ -72,7 +72,7 @@
     </element>
     <element id="Observation.templateId:templateId1.root">
       <path value="Observation.templateId.root" />
-      <sliceName value="templateId1" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot; 2.16.840.1.113883.10.20.22.4.500.2&quot; (CONF:4435-106)." />
       <min value="1" />
@@ -81,7 +81,7 @@
     </element>
     <element id="Observation.templateId:templateId1.extension">
       <path value="Observation.templateId.extension" />
-      <sliceName value="templateId1" />
+      
       <short value="extension" />
       <definition value="SHALL contain exactly one [1..1] @extension=&quot;2019-07-01&quot; (CONF:4435-108)." />
       <min value="1" />
@@ -147,7 +147,7 @@
     </element>
     <element id="Observation.value:value1.code">
       <path value="Observation.value.code" />
-      <sliceName value="value1" />
+      
       <short value="code" />
       <definition value="SHALL contain exactly one [1..1] @code, which SHALL be selected from ValueSet Care Team Category urn:oid:2.16.840.1.113883.4.642.3.155 DYNAMIC (CONF:4435-109)." />
       <min value="1" />

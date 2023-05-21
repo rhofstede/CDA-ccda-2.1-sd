@@ -181,10 +181,17 @@
         <element id="Observation.entryRelationship">
             <path value="Observation.entryRelationship"/>
             <slicing>
-                <discriminator>
-                    <type value="profile"/>
-                    <path value="observation"/>
-                </discriminator>
+                <slicing>
+                    <discriminator>
+                        <type value="value" />
+                        <path value="typeCode" />
+                    </discriminator>
+                    <discriminator>
+                        <type value="profile" />
+                        <path value="observation" />
+                    </discriminator>
+                    <rules value="open" />
+                </slicing>
                 <rules value="open"/>
             </slicing>
         </element>

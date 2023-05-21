@@ -72,7 +72,7 @@
     </element>
     <element id="Observation.templateId:templateId1.root">
       <path value="Observation.templateId.root" />
-      <sliceName value="templateId1" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.10.20.22.4.506&quot; (CONF:4537-4)." />
       <min value="1" />
@@ -81,7 +81,7 @@
     </element>
     <element id="Observation.templateId:templateId1.extension">
       <path value="Observation.templateId.extension" />
-      <sliceName value="templateId1" />
+      
       <short value="extension" />
       <definition value="SHALL contain exactly one [1..1] @extension=&quot;2023-05-01&quot; (CONF:4537-5)." />
       <min value="1" />

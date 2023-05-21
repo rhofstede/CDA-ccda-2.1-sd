@@ -72,7 +72,7 @@
     </element>
     <element id="Observation.templateId:templateId1.root">
       <path value="Observation.templateId.root" />
-      <sliceName value="templateId1" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.10.20.22.4.121&quot; (CONF:4515-10512)." />
       <min value="1" />
@@ -81,7 +81,7 @@
     </element>
     <element id="Observation.templateId:templateId1.extension">
       <path value="Observation.templateId.extension" />
-      <sliceName value="templateId1" />
+      
       <short value="extension" />
       <definition value="SHALL contain exactly one [1..1] @extension=&quot;2022-06-01&quot; (CONF:4515-32886)." />
       <min value="1" />
@@ -180,7 +180,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship1.typeCode">
       <path value="Observation.entryRelationship.typeCode" />
-      <sliceName value="entryRelationship1" />
+      
       <short value="typeCode" />
       <definition value="SHALL contain exactly one [1..1] @typeCode=&quot;REFR&quot; Refers to (CodeSystem: HL7ActRelationshipType urn:oid:2.16.840.1.113883.5.1002) (CONF:4515-30702)." />
       <min value="1" />
@@ -189,7 +189,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship1.act">
       <path value="Observation.entryRelationship.act" />
-      <sliceName value="entryRelationship1" />
+      
       <short value="act" />
       <definition value="SHALL contain exactly one [1..1] Entry Reference (identifier: urn:oid:2.16.840.1.113883.10.20.22.4.122) (CONF:4515-30703)." />
       <min value="1" />
@@ -209,7 +209,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship2.typeCode">
       <path value="Observation.entryRelationship.typeCode" />
-      <sliceName value="entryRelationship2" />
+      
       <short value="typeCode" />
       <definition value="SHALL contain exactly one [1..1] @typeCode=&quot;COMP&quot; Has component (CodeSystem: HL7ActRelationshipType urn:oid:2.16.840.1.113883.5.1002) (CONF:4515-30705)." />
       <min value="1" />
@@ -218,7 +218,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship2.act">
       <path value="Observation.entryRelationship.act" />
-      <sliceName value="entryRelationship2" />
+      
       <short value="act" />
       <definition value="SHALL contain exactly one [1..1] Entry Reference (identifier: urn:oid:2.16.840.1.113883.10.20.22.4.122) (CONF:4515-32879)." />
       <min value="1" />
@@ -238,7 +238,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship3.typeCode">
       <path value="Observation.entryRelationship.typeCode" />
-      <sliceName value="entryRelationship3" />
+      
       <short value="typeCode" />
       <definition value="SHALL contain exactly one [1..1] @typeCode=&quot;REFR&quot; Refers to (CodeSystem: HL7ActRelationshipType urn:oid:2.16.840.1.113883.5.1002) (CONF:4515-30786)." />
       <min value="1" />
@@ -247,7 +247,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship3.observation">
       <path value="Observation.entryRelationship.observation" />
-      <sliceName value="entryRelationship3" />
+      
       <short value="observation" />
       <definition value="SHALL contain exactly one [1..1] Priority Preference (identifier: urn:oid:2.16.840.1.113883.10.20.22.4.143) (CONF:4515-30787)." />
       <min value="1" />
@@ -267,7 +267,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship4.typeCode">
       <path value="Observation.entryRelationship.typeCode" />
-      <sliceName value="entryRelationship4" />
+      
       <short value="typeCode" />
       <definition value="SHALL contain exactly one [1..1] @typeCode=&quot;COMP&quot; Has component (CodeSystem: HL7ActRelationshipType urn:oid:2.16.840.1.113883.5.1002) (CONF:4515-31449)." />
       <min value="1" />
@@ -276,7 +276,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship4.observation">
       <path value="Observation.entryRelationship.observation" />
-      <sliceName value="entryRelationship4" />
+      
       <short value="observation" />
       <definition value="SHALL contain exactly one [1..1] Goal Observation (identifier: urn:oid:2.16.840.1.113883.10.20.22.4.121) (CONF:4515-32880)." />
       <min value="1" />
@@ -296,7 +296,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship5.typeCode">
       <path value="Observation.entryRelationship.typeCode" />
-      <sliceName value="entryRelationship5" />
+      
       <short value="typeCode" />
       <definition value="SHALL contain exactly one [1..1] @typeCode=&quot;REFR&quot; Refers to (CodeSystem: HL7ActRelationshipType urn:oid:2.16.840.1.113883.5.1002) (CONF:4515-31560)." />
       <min value="1" />
@@ -305,7 +305,7 @@
     </element>
     <element id="Observation.entryRelationship:entryRelationship5.act">
       <path value="Observation.entryRelationship.act" />
-      <sliceName value="entryRelationship5" />
+      
       <short value="act" />
       <definition value="SHALL contain exactly one [1..1] Entry Reference (identifier: urn:oid:2.16.840.1.113883.10.20.22.4.122) (CONF:4515-31588)." />
       <min value="1" />

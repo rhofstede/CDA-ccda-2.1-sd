@@ -43,10 +43,12 @@
             <requirements value="MAY contain zero or one [0..1] @use, which SHALL be selected from ValueSet EntityNameUse urn:oid:2.16.840.1.113883.1.11.15913 STATIC 2005-05-01 (CONF:81-7154)."/>
             <min value="0"/>
             <max value="1"/>
+            <!-- TODO Binding http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.15913 is not a subset of binding http://terminology.hl7.org/ValueSet/v3-PersonNameUse
             <binding>
                 <strength value="required"/>
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.15913"/>
             </binding>
+            -->
         </element>
         <element id="PN.family">
             <path value="PN.family"/>

@@ -37,7 +37,7 @@
       <definition value="SHALL contain exactly one [1..1] @typeCode=&quot;IND&quot; Indirect (CodeSystem: HL7ParticipationType urn:oid:2.16.840.1.113883.5.90) (CONF:4537-32982)." />
       <min value="1" />
       <max value="1" />
-      <patternString value="IND" />
+      <patternCode value="IND" />
     </element>
     <element id="Participant1.templateId">
       <path value="Participant1.templateId" />
@@ -64,7 +64,7 @@
     </element>
     <element id="Participant1.templateId:templateId1.root">
       <path value="Participant1.templateId.root" />
-      <sliceName value="templateId1" />
+      
       <short value="root" />
       <definition value="SHALL contain exactly one [1..1] @root=&quot;2.16.840.1.113883.10.20.22.5.8&quot; (CONF:4537-32983)." />
       <min value="1" />
@@ -73,7 +73,7 @@
     </element>
     <element id="Participant1.templateId:templateId1.extension">
       <path value="Participant1.templateId.extension" />
-      <sliceName value="templateId1" />
+      
       <short value="extension" />
       <definition value="SHALL contain exactly one [1..1] @extension=&quot;2023-05-01&quot; (CONF:4537-32984)." />
       <min value="1" />
@@ -93,7 +93,7 @@
       <definition value="This associatedEntity SHALL contain exactly one [1..1] @classCode=&quot;PRS&quot; Person (CodeSystem: HL7RoleCode urn:oid:2.16.840.1.113883.5.111) (CONF:4537-33076)." />
       <min value="1" />
       <max value="1" />
-      <patternString value="PRS" />
+      <patternCode value="PRS" />
     </element>
     <element id="Participant1.associatedEntity.code">
       <path value="Participant1.associatedEntity.code" />
