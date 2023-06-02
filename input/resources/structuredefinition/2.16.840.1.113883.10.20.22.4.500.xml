@@ -155,7 +155,7 @@
       <max value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.15933" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.15933" />
       </binding>
     </element>
     <element id="Organizer.effectiveTime">
@@ -231,7 +231,7 @@
       <max value="1" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.30" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.30" />
       </binding>
     </element>
     <element id="Organizer.participant:participant1.participantRole">

@@ -155,7 +155,7 @@
       <max value="1" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1021.101" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1021.101" />
       </binding>
     </element>
     <element id="Observation.value.nullFlavor">
@@ -166,7 +166,7 @@
       <max value="1" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1114.17" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1114.17" />
       </binding>
     </element>
   </differential>

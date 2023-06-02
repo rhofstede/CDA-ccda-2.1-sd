@@ -163,7 +163,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.16926" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.16926" />
             </binding>
         </element>
         <element id="ClinicalDocument.languageCode">
@@ -175,7 +175,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.11526" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.11526" />
             </binding>
         </element>
         <element id="ClinicalDocument.setId">
@@ -251,7 +251,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient">
@@ -282,7 +282,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.1" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.1" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.birthTime">
@@ -352,7 +352,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12212" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12212" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.religiousAffiliationCode">
@@ -364,7 +364,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.19185" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.19185" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.raceCode">
@@ -376,7 +376,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.2074.1.1.3" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.2074.1.1.3" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.sdtcRaceCode">
@@ -396,7 +396,7 @@
             </constraint>
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.14914" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.14914" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.ethnicGroupCode">
@@ -408,7 +408,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.837" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.837" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.sdtcEthnicGroupCode">
@@ -420,7 +420,7 @@
             <max value="*" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.877" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.877" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.guardian">
@@ -439,7 +439,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.12.1" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.12.1" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.guardian.addr">
@@ -470,7 +470,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.guardian.guardianPerson">
@@ -536,7 +536,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.80.63" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.80.63" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.languageCommunication">
@@ -555,7 +555,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.11526" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.11526" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.languageCommunication.modeCode">
@@ -567,7 +567,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12249" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12249" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.languageCommunication.proficiencyLevelCode">
@@ -579,7 +579,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12199" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12199" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.patient.languageCommunication.preferenceInd">
@@ -635,7 +635,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.recordTarget.patientRole.providerOrganization.addr">
@@ -754,7 +754,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
             </binding>
         </element>
         <element id="ClinicalDocument.author.assignedAuthor.addr">
@@ -785,7 +785,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.author.assignedAuthor.assignedPerson">
@@ -867,7 +867,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
             </binding>
         </element>
         <element id="ClinicalDocument.dataEnterer.assignedEntity.addr">
@@ -898,7 +898,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.dataEnterer.assignedEntity.assignedPerson">
@@ -969,7 +969,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
             </binding>
         </element>
         <element id="ClinicalDocument.informant:informant1.assignedEntity.addr">
@@ -1078,7 +1078,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.custodian.assignedCustodian.representedCustodianOrganization.addr">
@@ -1224,7 +1224,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
             </binding>
         </element>
         <element id="ClinicalDocument.legalAuthenticator.assignedEntity.addr">
@@ -1255,7 +1255,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.legalAuthenticator.assignedEntity.assignedPerson">
@@ -1381,7 +1381,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
             </binding>
         </element>
         <element id="ClinicalDocument.authenticator:authenticator1.assignedEntity.addr">
@@ -1412,7 +1412,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20" />
             </binding>
         </element>
         <element id="ClinicalDocument.authenticator:authenticator1.assignedEntity.assignedPerson">
@@ -1548,7 +1548,7 @@
             <max value="1" />
             <binding>
                 <strength value="required" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.19601" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.19601" />
             </binding>
         </element>
         <element id="ClinicalDocument.documentationOf.serviceEvent.performer.functionCode">
@@ -1567,7 +1567,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.30" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.30" />
             </binding>
         </element>
         <element id="ClinicalDocument.documentationOf.serviceEvent.performer.assignedEntity">
@@ -1602,7 +1602,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.1066" />
             </binding>
         </element>
         <element id="ClinicalDocument.authorization">

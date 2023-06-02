@@ -94,7 +94,7 @@
             <max value="1" />
             <binding>
                 <strength value="preferred" />
-                <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.68" />
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.68" />
             </binding>
         </element>
         <element id="Section.title">

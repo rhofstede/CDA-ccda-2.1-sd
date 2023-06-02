@@ -103,7 +103,7 @@
       <max value="1" />
       <binding>
         <strength value="example" />
-        <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.7.2" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.7.2" />
       </binding>
     </element>
     <element id="Observation.statusCode">
@@ -136,7 +136,7 @@
       <max value="1" />
       <binding>
         <strength value="example" />
-        <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.7.4" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.7.4" />
       </binding>
     </element>
     <!-- TODO: some types on Observation.value either don't allow or don't have translation.

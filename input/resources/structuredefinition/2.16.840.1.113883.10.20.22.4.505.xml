@@ -142,7 +142,7 @@
       <max value="1" />
       <binding>
         <strength value="example" />
-        <valueSet value="https://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.1.3932" />
+        <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/1.3.6.1.4.1.12009.10.1.3932" />
       </binding>
     </element>
     <element id="Observation.entryRelationship">
