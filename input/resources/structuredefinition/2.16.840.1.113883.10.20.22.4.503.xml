@@ -174,17 +174,21 @@
     </element>
     <element id="Observation.entryRelationship">
       <path value="Observation.entryRelationship" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="typeCode" />
-        </discriminator>
-        <discriminator>
-          <type value="value" />
-          <path value="observation" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
+        <slicing>
+          <discriminator>
+            <type value="value" />
+            <path value="act" />
+          </discriminator>
+          <discriminator>
+            <type value="value" />
+            <path value="observation" />
+          </discriminator>
+          <discriminator>
+            <type value="value" />
+            <path value="typeCode" />
+          </discriminator>
+          <rules value="open" />
+        </slicing>
       <definition value="SHOULD contain zero or one [0..1] entryRelationship (CONF:4537-33060) such that it" />
     </element>
     <element id="Observation.entryRelationship:entryRelationship1">

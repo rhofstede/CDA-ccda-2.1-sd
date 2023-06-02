@@ -170,6 +170,10 @@
         </discriminator>
         <discriminator>
           <type value="value" />
+          <path value="observation" />
+        </discriminator>
+        <discriminator>
+          <type value="value" />
           <path value="typeCode" />
         </discriminator>
         <rules value="open" />

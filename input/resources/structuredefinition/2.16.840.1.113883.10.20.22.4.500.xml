@@ -120,34 +120,20 @@
     </element>
     <element id="Organizer.code.originalText">
       <path value="Organizer.code.originalText" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="reference" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <definition value="This code SHOULD contain zero or one [0..1] originalText (CONF:4515-154) such that it" />
-    </element>
-    <element id="code.Organizer.code.originalText:originalText1">
-      <path value="Organizer.code.originalText" />
-      <sliceName value="originalText1" />
       <short value="originalText" />
       <definition value="This code SHOULD contain zero or one [0..1] originalText (CONF:4515-154) such that it" />
       <min value="0" />
       <max value="1" />
     </element>
-    <element id="code.Organizer.code.originalText:originalText1.reference">
+    <element id="code.Organizer.code.originalText.reference">
       <path value="Organizer.code.originalText.reference" />
-      
       <short value="reference" />
       <definition value="SHALL contain exactly one [1..1] reference (CONF:4515-155)." />
       <min value="1" />
       <max value="1" />
     </element>
-    <element id="code.Organizer.code.originalText:originalText1.reference.value">
+    <element id="code.Organizer.code.originalText.reference.value">
       <path value="Organizer.code.originalText.reference.value" />
-      
       <short value="value" />
       <definition value="This reference SHALL contain exactly one [1..1] @value (CONF:4515-156)." />
       <min value="1" />
