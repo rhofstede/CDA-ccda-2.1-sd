@@ -60,6 +60,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="ExternalDocument.templateId:primary">
             <path value="ExternalDocument.templateId"/>

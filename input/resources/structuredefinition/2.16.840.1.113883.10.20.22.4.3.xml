@@ -61,6 +61,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Act.templateId:primary">
             <path value="Act.templateId"/>
@@ -169,6 +170,7 @@
                 <rules value="open"/>
             </slicing>
             <short value="The following entryRelationship represents the importance of the concern to a provider."/>
+            <min value="1"/>
         </element>
         <element id="Act.entryRelationship:problem">
             <path value="Act.entryRelationship"/>

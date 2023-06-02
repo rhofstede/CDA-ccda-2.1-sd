@@ -60,6 +60,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+        <min value="1"/>
       <definition value="SHALL contain exactly one [1..1] templateId (CONF:4435-99) such that it" />
     </element>
     <element id="Observation.templateId:templateId1">
@@ -135,6 +136,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+        <min value="1"/>
       <definition value="SHALL contain exactly one [1..1] value with @xsi:type=&quot;CD&quot; (CONF:4435-98) such that it" />
     </element>
     <element id="Observation.value:value1">

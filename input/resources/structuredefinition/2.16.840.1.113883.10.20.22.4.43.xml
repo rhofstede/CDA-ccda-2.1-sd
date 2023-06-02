@@ -63,6 +63,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Supply.templateId:primary">
             <path value="Supply.templateId"/>

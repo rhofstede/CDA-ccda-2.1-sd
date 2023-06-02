@@ -61,6 +61,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Observation.templateId:primary">
             <path value="Observation.templateId"/>
@@ -112,6 +113,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="code.Observation.code.translation:advanceDirective">
             <path value="Observation.code.translation"/>
@@ -176,6 +178,7 @@
             <slicing>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Observation.value:value1">
             <path value="Observation.value"/>
@@ -238,6 +241,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="participant.Observation.participant.templateId:primary">
             <path value="Observation.participant.templateId"/>
@@ -395,6 +399,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Observation.reference:reference1">
             <path value="Observation.reference"/>

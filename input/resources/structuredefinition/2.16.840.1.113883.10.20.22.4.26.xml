@@ -60,6 +60,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Organizer.templateId:primary">
             <path value="Organizer.templateId"/>
@@ -122,6 +123,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="code.Organizer.code.translation:translation1">
             <path value="Organizer.code.translation"/>
@@ -184,6 +186,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Organizer.component:component1">
             <path value="Organizer.component"/>

@@ -59,8 +59,8 @@
           <path value="extension" />
         </discriminator>
         <rules value="open" />
-      </slicing>
-      <definition value="SHALL contain exactly one [1..1] templateId (CONF:4437-3480) such that it" />
+        </slicing>
+        <min value="1"/>
     </element>
     <element id="Organizer.templateId:templateId1">
       <path value="Organizer.templateId" />

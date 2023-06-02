@@ -47,6 +47,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="2"/>
         </element>
         <element id="ClinicalDocument.templateId:secondary">
             <path value="ClinicalDocument.templateId"/>
@@ -373,6 +374,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:component1">
             <path value="ClinicalDocument.component.structuredBody.component"/>

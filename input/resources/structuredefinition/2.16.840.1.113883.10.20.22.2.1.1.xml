@@ -53,6 +53,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="2"/>
         </element>
         <element id="Section.templateId:secondary">
             <path value="Section.templateId"/>

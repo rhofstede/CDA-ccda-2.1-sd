@@ -53,6 +53,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="EncounterParticipant.templateId:primary">
             <path value="EncounterParticipant.templateId"/>

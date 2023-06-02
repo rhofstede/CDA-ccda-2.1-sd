@@ -67,6 +67,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="SubstanceAdministration.templateId:primary">
             <path value="SubstanceAdministration.templateId"/>
@@ -129,6 +130,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="SubstanceAdministration.effectiveTime:duration">
             <path value="SubstanceAdministration.effectiveTime"/>

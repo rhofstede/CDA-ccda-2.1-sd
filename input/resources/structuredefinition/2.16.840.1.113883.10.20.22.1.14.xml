@@ -47,6 +47,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="ClinicalDocument.templateId:primary">
             <path value="ClinicalDocument.templateId"/>

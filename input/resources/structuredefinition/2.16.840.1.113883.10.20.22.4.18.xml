@@ -65,6 +65,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+        <min value="1"/>
       <definition value="SHALL contain exactly one [1..1] templateId (CONF:4537-7453) such that it" />
     </element>
     <element id="Supply.templateId:templateId1">

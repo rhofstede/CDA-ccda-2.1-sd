@@ -53,6 +53,7 @@
         <rules value="open" />
       </slicing>
       <definition value="SHALL contain exactly one [1..1] templateId (CONF:4537-40) such that it" />
+        <min value="1"/>
     </element>
     <element id="Participant1.templateId:templateId1">
       <path value="Participant1.templateId" />

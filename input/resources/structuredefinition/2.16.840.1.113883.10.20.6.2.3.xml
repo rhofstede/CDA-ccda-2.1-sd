@@ -41,6 +41,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="RelatedSubject.templateId:primary">
             <path value="RelatedSubject.templateId"/>

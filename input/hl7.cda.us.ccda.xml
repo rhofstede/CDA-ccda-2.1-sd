@@ -2,7 +2,8 @@
 <ImplementationGuide
     xmlns="http://hl7.org/fhir">
     <id value="hl7.cda.us.ccda"/>
-    <url value="http://hl7.org/cda/stds/ccda/ImplementationGuide/hl7.cda.us.ccda"/>
+    <!-- SG 2023-06-02 Updated "stds" to "us" to match the structure definitions -->
+    <url value="http://hl7.org/cda/us/ccda/ImplementationGuide/hl7.cda.us.ccda"/>
     <version value="2.1.0-draft1"/>
     <name value="CCDA"/>
     <title value="Consolidated CDA Release 2.1 StructureDefinition Prototype Publication"/>

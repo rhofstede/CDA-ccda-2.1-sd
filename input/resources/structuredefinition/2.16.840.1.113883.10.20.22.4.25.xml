@@ -46,6 +46,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Criterion.templateId:primary">
             <path value="Criterion.templateId"/>
