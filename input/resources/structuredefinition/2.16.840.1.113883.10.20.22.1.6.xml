@@ -25,9 +25,10 @@
         </telecom>
     </contact>
     <description value="A Procedure Note encompasses many types of non-operative procedures including interventional cardiology, gastrointestinal endoscopy, osteopathic manipulation, and many other specialty fields. Procedure Notes are differentiated from Operative Notes because they do not involve incision or excision as the primary act.&#xA;&#xA;The Procedure Note is created immediately following a non-operative procedure. It records the indications for the procedure and, when applicable, postprocedure diagnosis, pertinent events of the procedure, and the patient's tolerance for the procedure. It should be detailed enough to justify the procedure, describe the course of the procedure, and provide continuity of care."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="ClinicalDocument"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
     <baseDefinition value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.1.1"/>
     <derivation value="constraint"/>
     <differential>
@@ -47,6 +48,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="2"/>
         </element>
         <element id="ClinicalDocument.templateId:secondary">
             <path value="ClinicalDocument.templateId"/>
@@ -154,6 +156,7 @@
                 <rules value="open"/>
             </slicing>
             <short value="A serviceEvent is required in the Procedure Note to represent the main act, such as a colonoscopy or a cardiac stress study, being documented. It must be equivalent to or further specialize the value inherent in the ClinicalDocument/@code (such as where the ClinicalDocument/@code is simply &quot;Procedure Note&quot; and the procedure is &quot;colonoscopy&quot;), and it shall not conflict with the value inherent in the ClinicalDocument/@code, as such a conflict would create ambiguity. A serviceEvent/effectiveTime element indicates the time the actual event (as opposed to the encounter surrounding the event) took place. serviceEvent/effectiveTime may be represented two different ways in the Procedure Note. For accuracy to the second, the best method is effectiveTime/low together with effectiveTime/high. If a more general time, such as minutes or hours, is acceptable OR if the duration is unknown, an effectiveTime/low with a width element may be used. If the duration is unknown, the appropriate HL7 null value such as &quot;NI&quot; or &quot;NA&quot; must be used for the width element."/>
+            <min value="1"/>
         </element>
         <element id="ClinicalDocument.documentationOf:documentationOf1">
             <path value="ClinicalDocument.documentationOf"/>
@@ -179,7 +182,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/IVL-TS"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.5.3"/>
             </type>
             <constraint>
@@ -436,7 +439,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.37"/>
             </type>
         </element>
@@ -453,7 +456,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.27"/>
             </type>
         </element>
@@ -470,7 +473,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.29"/>
             </type>
         </element>
@@ -487,7 +490,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.36"/>
             </type>
         </element>
@@ -504,7 +507,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.8"/>
             </type>
         </element>
@@ -521,7 +524,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.9"/>
             </type>
         </element>
@@ -538,7 +541,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.10"/>
             </type>
         </element>
@@ -555,7 +558,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.6"/>
             </type>
         </element>
@@ -572,7 +575,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.25"/>
             </type>
         </element>
@@ -589,7 +592,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.1.13.2.1"/>
             </type>
         </element>
@@ -606,7 +609,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.13"/>
             </type>
         </element>
@@ -623,7 +626,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.15"/>
             </type>
         </element>
@@ -640,7 +643,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.20"/>
             </type>
         </element>
@@ -657,7 +660,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.4"/>
             </type>
         </element>
@@ -674,7 +677,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.39"/>
             </type>
         </element>
@@ -691,7 +694,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.1"/>
             </type>
         </element>
@@ -708,7 +711,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.38"/>
             </type>
         </element>
@@ -725,7 +728,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.2.10"/>
             </type>
         </element>
@@ -742,7 +745,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.30"/>
             </type>
         </element>
@@ -759,7 +762,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.18.2.12"/>
             </type>
         </element>
@@ -776,7 +779,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.18.2.9"/>
             </type>
         </element>
@@ -793,7 +796,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.28"/>
             </type>
         </element>
@@ -810,7 +813,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.40"/>
             </type>
         </element>
@@ -827,7 +830,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.31"/>
             </type>
         </element>
@@ -844,7 +847,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.7"/>
             </type>
         </element>
@@ -861,7 +864,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.12"/>
             </type>
         </element>
@@ -878,7 +881,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.18"/>
             </type>
         </element>
@@ -895,7 +898,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.17"/>
             </type>
         </element>

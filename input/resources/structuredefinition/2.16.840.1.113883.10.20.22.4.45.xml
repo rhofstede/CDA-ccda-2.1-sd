@@ -25,10 +25,11 @@
         </telecom>
     </contact>
     <description value="The Family History Organizer associates a set of observations with a family member. For example, the Family History Organizer can group a set of observations about the patient's father."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Organizer"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Organizer"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Organizer">
@@ -61,6 +62,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Organizer.templateId:primary">
             <path value="Organizer.templateId"/>
@@ -185,7 +187,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.46"/>
             </type>
         </element>

@@ -23,10 +23,11 @@
         </telecom>
     </contact>
     <description value="This template represents the insurance coverage intended to cover an act or procedure."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Act"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Act"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Act">
@@ -55,6 +56,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Act.templateId:primary">
             <path value="Act.templateId"/>
@@ -115,7 +117,7 @@
             <min value="0"/>
             <max value="*"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Author"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.119"/>
             </type>
         </element>
@@ -128,6 +130,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Act.entryRelationship:entryRelationship1">
             <path value="Act.entryRelationship"/>

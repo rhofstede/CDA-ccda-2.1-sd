@@ -24,10 +24,11 @@
         </telecom>
     </contact>
     <description value="The Immunization Medication Information represents product information about the immunization substance. The vaccine manufacturer and vaccine lot number are typically recorded in the medical record and should be included if known."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="ManufacturedProduct"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/ManufacturedProduct"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/ManufacturedProduct"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ManufacturedProduct"/>
     <derivation value="constraint"/>
     <differential>
         <element id="ManufacturedProduct">
@@ -52,6 +53,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="ManufacturedProduct.templateId:primary">
             <path value="ManufacturedProduct.templateId"/>

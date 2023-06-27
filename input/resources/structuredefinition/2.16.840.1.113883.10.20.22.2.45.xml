@@ -24,10 +24,11 @@
         </telecom>
     </contact>
     <description value="The Instructions Section records instructions given to a patient. List patient decision aids here."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Section"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Section">
@@ -53,6 +54,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Section.templateId:primary">
             <path value="Section.templateId"/>
@@ -117,6 +119,7 @@
                 <rules value="open"/>
             </slicing>
             <short value="If section/@nullFlavor is not present:"/>
+            <min value="1"/>
         </element>
         <element id="Section.entry:instruction">
             <path value="Section.entry"/>
@@ -131,7 +134,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Act"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.20"/>
             </type>
         </element>

@@ -25,10 +25,11 @@
         </telecom>
     </contact>
     <description value="This template represents the number of pressure ulcers observed at a particular stage."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation">
@@ -61,6 +62,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Observation.templateId:primary">
             <path value="Observation.templateId"/>
@@ -122,6 +124,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="code.Observation.code.translation:translation1">
             <path value="Observation.code.translation"/>
@@ -169,7 +172,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/INT"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
             </type>
         </element>
         <element id="Observation.author">
@@ -187,6 +190,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Observation.entryRelationship:entryRelationship1">
             <path value="Observation.entryRelationship"/>

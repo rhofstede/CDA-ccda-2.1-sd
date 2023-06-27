@@ -25,9 +25,10 @@
         </telecom>
     </contact>
     <description value="A Diagnostic Imaging Report (DIR) is a document that contains a consulting specialist's interpretation of image data. It conveys the interpretation to the referring (ordering) physician and becomes part of the patient's medical record. It is for use in Radiology, Endoscopy, Cardiology, and other imaging specialties."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="ClinicalDocument"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
     <baseDefinition value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.1.1"/>
     <derivation value="constraint"/>
     <differential>
@@ -47,6 +48,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="2"/>
         </element>
         <element id="ClinicalDocument.templateId:secondary">
             <path value="ClinicalDocument.templateId"/>
@@ -171,7 +173,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/PN"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/PN"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.5.1.1"/>
             </type>
         </element>
@@ -196,21 +198,12 @@
             <min value="1"/>
             <max value="*"/>
         </element>
+        <!--SG 2023-06-01 Don't think this should really be a slice - there is only one allowed-->
         <element id="ClinicalDocument.documentationOf">
             <path value="ClinicalDocument.documentationOf"/>
-            <slicing>
-                <discriminator>
-                    <type value="value"/>
-                    <path value="ClinicalDocument.serviceEvent"/>
-                </discriminator>
-                <rules value="open"/>
-            </slicing>
+            <!--<slicing><discriminator><type value="value"/><path value="ClinicalDocument.serviceEvent"/></discriminator><rules value="open"/></slicing>-->
             <short value="Each serviceEvent indicates an imaging procedure that the provider describes and interprets in the content of the DIR. The main activity being described by this document is the interpretation of the imaging procedure. This is shown by setting the value of the @classCode attribute of the serviceEvent element to ACT, and indicating the duration over which care was provided in the effectiveTime element. Within each documentationOf element, there is one serviceEvent element. This event is the unit imaging procedure corresponding to a billable item. The type of imaging procedure may be further described in the serviceEvent/code element. This guide makes no specific recommendations about the vocabulary to use for describing this event. In IHE Scheduled Workflow environments, one serviceEvent/id element contains the DICOM Study Instance UID from the Modality Worklist, and the second serviceEvent/id element contains the DICOM Requested Procedure ID from the Modality Worklist. These two ids are in a single serviceEvent. The effectiveTime for the serviceEvent covers the duration of the imaging procedure being reported. This event should have one or more performers, which may participate at the same or different periods of time. Service events map to DICOM Requested Procedures. That is, serviceEvent/id is the ID of the Requested Procedure."/>
-        </element>
-        <element id="ClinicalDocument.documentationOf:documentationOf1">
-            <path value="ClinicalDocument.documentationOf"/>
-            <sliceName value="documentationOf1"/>
-            <requirements value="SHALL contain exactly one [1..1] documentationOf (CONF:1198-8416) such that it"/>
+            <!--</element><element id="ClinicalDocument.documentationOf:documentationOf1"><path value="ClinicalDocument.documentationOf"/><sliceName value="documentationOf1"/><requirements value="SHALL contain exactly one [1..1] documentationOf (CONF:1198-8416) such that it"/>-->
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -251,7 +244,7 @@
             <min value="0"/>
             <max value="*"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Performer1"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Performer1"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.1"/>
             </type>
         </element>
@@ -320,7 +313,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/IVL-TS"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.5.3"/>
             </type>
         </element>
@@ -347,7 +340,7 @@
             <min value="0"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/EncounterParticipant"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/EncounterParticipant"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.2"/>
             </type>
         </element>
@@ -372,6 +365,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:component1">
             <path value="ClinicalDocument.component.structuredBody.component"/>
@@ -386,7 +380,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.1.2"/>
             </type>
         </element>
@@ -403,7 +397,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.1.1"/>
             </type>
             <constraint>
@@ -494,7 +488,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/RelatedSubject"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedSubject"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.3"/>
             </type>
         </element>
@@ -522,7 +516,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/AssignedAuthor"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.4"/>
             </type>
         </element>
@@ -549,7 +543,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Act"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.5"/>
             </type>
         </element>
@@ -566,7 +560,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.12"/>
             </type>
         </element>
@@ -583,7 +577,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.13"/>
             </type>
         </element>
@@ -600,7 +594,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.14"/>
             </type>
         </element>
@@ -617,7 +611,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.6.2.8"/>
             </type>
         </element>

@@ -25,9 +25,10 @@
         </telecom>
     </contact>
     <description value="This template represents acquired or surgical wounds and is not intended to encompass all wound types. The template applies to wounds such as pressure ulcers, surgical incisions, and deep tissue injury wounds. Information in this template may include information about the wound measurements characteristics."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Observation"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.4"/>
     <derivation value="constraint"/>
     <differential>
@@ -61,6 +62,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="2"/>
         </element>
         <element id="Observation.templateId:secondary">
             <path value="Observation.templateId"/>
@@ -179,7 +181,7 @@
             <min value="0"/>
             <max value="*"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Author"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.119"/>
             </type>
         </element>
@@ -214,7 +216,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.133"/>
             </type>
         </element>
@@ -238,7 +240,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.134"/>
             </type>
         </element>
@@ -263,7 +265,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.76"/>
             </type>
         </element>
@@ -287,7 +289,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.77"/>
             </type>
         </element>

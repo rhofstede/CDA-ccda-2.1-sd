@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
-    xmlns="http://hl7.org/fhir">
+    xmlns="http://hl7.org/fhir" xmlns:cda="urn:hl7-org:v3">
     <id value="2.16.840.1.113883.10.20.18.2.12"/>
     <url value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.18.2.12"/>
     <identifier>
@@ -23,10 +23,11 @@
         </telecom>
     </contact>
     <description value="The Procedure Disposition Section records the status and condition of the patient at the completion of the procedure or surgery. It often also states where the patient was transferred to for the next level of care."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Section"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Section"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Section">
@@ -41,6 +42,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Section.templateId:primary">
             <path value="Section.templateId"/>

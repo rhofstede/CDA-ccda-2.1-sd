@@ -24,10 +24,11 @@
         </telecom>
     </contact>
     <description value="This clinical statement represents the response to an undesired symptom, finding, etc. due to administered or exposed substance. A reaction can be defined described with respect to its severity, and can have been treated by one or more interventions."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation">
@@ -60,6 +61,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Observation.templateId:primary">
             <path value="Observation.templateId"/>
@@ -145,7 +147,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/CD"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
             </type>
             <binding>
                 <strength value="required"/>
@@ -198,7 +200,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Procedure"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Procedure"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.14"/>
             </type>
         </element>
@@ -230,7 +232,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/SubstanceAdministration"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.16"/>
             </type>
         </element>
@@ -261,7 +263,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.8"/>
             </type>
         </element>

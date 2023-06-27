@@ -25,10 +25,11 @@
         </telecom>
     </contact>
     <description value="This template provides a mechanism for grouping vital signs (e.g., grouping systolic blood pressure and diastolic blood pressure).&#xA;"/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Organizer"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Organizer"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Organizer">
@@ -60,6 +61,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Organizer.templateId:primary">
             <path value="Organizer.templateId"/>
@@ -122,6 +124,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="code.Organizer.code.translation:translation1">
             <path value="Organizer.code.translation"/>
@@ -171,7 +174,7 @@
             <min value="0"/>
             <max value="*"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Author"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.119"/>
             </type>
         </element>
@@ -184,6 +187,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Organizer.component:component1">
             <path value="Organizer.component"/>
@@ -198,7 +202,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.27"/>
             </type>
         </element>

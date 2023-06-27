@@ -25,10 +25,11 @@
         </telecom>
     </contact>
     <description value="This template represents the clinical status attributed to the allergy or intolerance. There can be only one allergy status observation per allergy - intolerance observation.&#xA;"/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Observation"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Observation"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Observation">
@@ -61,6 +62,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Observation.templateId:primary">
             <path value="Observation.templateId"/>
@@ -122,7 +124,7 @@
             <min value="1"/>
             <max value="1"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/CE"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
             </type>
             <binding>
                 <strength value="required"/>

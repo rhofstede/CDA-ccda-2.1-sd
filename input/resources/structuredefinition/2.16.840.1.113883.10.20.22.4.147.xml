@@ -24,10 +24,11 @@
         </telecom>
     </contact>
     <description value="The template is available to explicitly identify the free text Sig within each medication. &#xA;&#xA;An example free text sig: Thyroxin 150 ug, take one tab by mouth every morning."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="SubstanceAdministration"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/SubstanceAdministration"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration"/>
     <derivation value="constraint"/>
     <differential>
         <element id="SubstanceAdministration">
@@ -60,6 +61,7 @@
                 </discriminator>
                 <rules value="closed"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="SubstanceAdministration.templateId:primary">
             <path value="SubstanceAdministration.templateId"/>

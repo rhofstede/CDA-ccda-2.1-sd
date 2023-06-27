@@ -23,10 +23,11 @@
         </telecom>
     </contact>
     <description value="This template represents the sender (author) and receivers (participants) of a handoff communication in a plan of treatment. It does not convey details about the communication. The &quot;handoff&quot; process involves senders, those transmitting the patient's information and releasing the care of that patient to the next clinician, and receivers, those who accept the patient information and care of that patient."/>
+    <fhirVersion value="4.0.1"/>
     <kind value="resource"/>
     <abstract value="false"/>
-    <type value="Act"/>
-    <baseDefinition value="http://hl7.org/fhir/cda/StructureDefinition/Act"/>
+    <type value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
+    <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Act">
@@ -55,6 +56,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
         </element>
         <element id="Act.templateId:primary">
             <path value="Act.templateId"/>
@@ -117,7 +119,7 @@
             <min value="1"/>
             <max value="*"/>
             <type>
-                <code value="http://hl7.org/fhir/cda/StructureDefinition/Author"/>
+                <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.119"/>
             </type>
         </element>
@@ -131,6 +133,7 @@
                 <rules value="open"/>
             </slicing>
             <short value="Documentation of the Information Recipient's name and address verifies that the information was exchanged."/>
+            <min value="1"/>
         </element>
         <element id="Act.participant:infoRecipient">
             <path value="Act.participant"/>
