@@ -13,3 +13,5 @@ node_modules/
 input/.DS_Store
 input/resources/.DS_Store
 .DS_Store
+/publisher.jar
+/publisher.bat

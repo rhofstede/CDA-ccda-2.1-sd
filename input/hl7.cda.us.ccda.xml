@@ -2,10 +2,10 @@
 <ImplementationGuide
     xmlns="http://hl7.org/fhir">
     <id value="hl7.cda.us.ccda"/>
-    <url value="http://hl7.org/cda/stds/ccda/ImplementationGuide/hl7.cda.us.ccda"/>
-    <version value="2.1.0-draft1"/>
+    <url value="http://hl7.org/cda/us/ccda/ImplementationGuide/hl7.cda.us.ccda"/>
+    <version value="2.1.0-namspace-issue"/>
     <name value="CCDA"/>
-    <title value="Consolidated CDA Release 2.1 StructureDefinition Prototype Publication"/>
+    <title value="Consolidated CDA Release 2.1 StructureDefinition"/>
     <status value="draft"/>
     <publisher value="Health Level Seven"/>
     <contact>
@@ -23,11 +23,6 @@
     </jurisdiction>
     <packageId value="hl7.cda.us.ccda"/>
     <fhirVersion value="5.0.0"/>
-    <dependsOn id="hl7fhiruvextensionsr4">
-        <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions#1.0.0"/>
-        <packageId value="hl7.fhir.uv.extensions"/>
-        <version value="1.0.0"/>
-    </dependsOn>
     <dependsOn id="cda">
         <uri value="http://hl7.org/cda/stds/core/ImplementationGuide/hl7.cda.uv.core"/>
         <packageId value="hl7.cda.uv.core"/>
