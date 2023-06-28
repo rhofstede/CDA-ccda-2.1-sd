@@ -2384,13 +2384,19 @@
                 <generation value="markdown"/>
             </page>
         </page>
-        <parameter>
-            <code value="releaselabel"/>
+        <!--<parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="releaselabel"/>
+            </code>
             <value value="CI Build"/>
         </parameter>
         <parameter>
-            <code value="copyrightyear"/>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="copyrightyear"/>
+            </code>
             <value value="2019+"/>
-        </parameter>
+        </parameter>-->
     </definition>
 </ImplementationGuide>
