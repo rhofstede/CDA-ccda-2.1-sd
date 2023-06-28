@@ -24,7 +24,7 @@
     </contact>
     <description value="The Operative Note Fluids Section may be used to record fluids administered during the surgical procedure."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>

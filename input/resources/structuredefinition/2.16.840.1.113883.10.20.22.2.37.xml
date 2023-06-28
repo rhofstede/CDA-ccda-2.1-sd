@@ -26,7 +26,7 @@
     </contact>
     <description value="This section contains problems that occurred during or around the time of a procedure. The complications may be known risks or unanticipated problems."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>

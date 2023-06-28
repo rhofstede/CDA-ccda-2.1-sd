@@ -30,7 +30,7 @@
     </contact>
     <description value="This observation represents the sexual orientation of the patient, defined as:&#xA;&#xA;&gt; A persons identification of their emotional, romantic, sexual, or affectional attraction to another person.&#xA;&#xA;This template was informed by the HL7 Gender Harmony project.&#xA;&#xA;This observation is not appropriate for recording patient gender (administrativeGender), Gender Identity (Gender Identity Observation), or birth sex (Birth Sex Observation)."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.38"/>

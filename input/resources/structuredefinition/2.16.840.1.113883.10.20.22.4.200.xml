@@ -30,7 +30,7 @@
     </contact>
     <description value="This observation represents the sex of the patient at birth. It is the sex that is entered on the person's birth certificate at time of birth.&#xA;&#xA;This observation is not appropriate for recording patient gender (administrativeGender).&#xA;&#xA;This observation is not appropriate for recording Gender Identity (GI).&#xA;&#xA;It is recommended systems include the Birth Sex observation in the Social History section."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

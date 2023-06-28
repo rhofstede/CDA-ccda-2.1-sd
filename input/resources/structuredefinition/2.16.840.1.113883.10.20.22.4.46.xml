@@ -26,7 +26,7 @@
     </contact>
     <description value="Family History Observations related to a particular family member are contained within a Family History Organizer. The effectiveTime in the Family History Observation is the biologically or clinically relevant time of the observation. The biologically or clinically relevant time is the time at which the observation holds (is effective) for the family member (the subject of the observation)."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

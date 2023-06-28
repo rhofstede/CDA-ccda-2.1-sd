@@ -25,7 +25,7 @@
     </contact>
     <description value="This section contains the reason(s) for the procedure or surgery. This section may include the preprocedure diagnoses as well as symptoms contributing to the reason for the procedure."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>

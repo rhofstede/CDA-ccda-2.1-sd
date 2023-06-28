@@ -25,7 +25,7 @@
     </contact>
     <description value="A criterion for administration can be used to record that the medication is to be administered only when the associated criteria are met."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Criterion"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Criterion"/>

@@ -24,7 +24,7 @@
     </contact>
     <description value="This template represents the administration course in a series. The entryRelationship/sequenceNumber in the containing template shows the order of this particular administration in that medication series."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>

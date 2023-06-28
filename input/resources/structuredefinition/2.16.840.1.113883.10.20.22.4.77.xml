@@ -24,7 +24,7 @@
     </contact>
     <description value="This observation contains a description of the wound tissue of the most severe or highest staged pressure ulcer observed on a patient."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

@@ -26,7 +26,7 @@
     </contact>
     <description value="This template represents the clinical status attributed to the allergy or intolerance. There can be only one allergy status observation per allergy - intolerance observation.&#xA;"/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

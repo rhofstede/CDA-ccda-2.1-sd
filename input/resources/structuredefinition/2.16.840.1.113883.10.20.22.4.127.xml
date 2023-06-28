@@ -24,7 +24,7 @@
     </contact>
     <description value="This template represents a patient's sensory or speech ability. It may contain an assessment scale observations related to the sensory or speech ability."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

@@ -26,7 +26,7 @@
     </contact>
     <description value="This template defines constraints that represent common administrative and demographic concepts for US Realm CDA documents. Further specification, such as ClinicalDocument/code, are provided in document templates that conform to this template."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>

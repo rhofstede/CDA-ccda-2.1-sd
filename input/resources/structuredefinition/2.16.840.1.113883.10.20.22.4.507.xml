@@ -30,7 +30,7 @@
     </contact>
     <description value="This template represents sex notations that occur in various instances, such as encounters that reflect information derived from driver's licenses or other IDs and meets the USCDI V4 Data element Sex.&#xA;&#xA;The Birth Sex Observation template is available for use in C-CDA and reflects specifically the sex assigned at birth concept present in USCDI V1 and V2.&#xA;&#xA;This Sex observation MAY also mean sex at the time of birth if it was documented at the time of delivery.&#xA;Future versions of the template be informed by the content of the HL7 Cross Paradigm IG: Gender Harmony - Sex and Gender Representation 1.0.0. when published.&#xA;&#xA;It is recommended systems include the Sex Observation in the Social History section."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

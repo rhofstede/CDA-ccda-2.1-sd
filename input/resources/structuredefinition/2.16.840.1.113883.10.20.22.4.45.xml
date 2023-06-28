@@ -26,7 +26,7 @@
     </contact>
     <description value="The Family History Organizer associates a set of observations with a family member. For example, the Family History Organizer can group a set of observations about the patient's father."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>

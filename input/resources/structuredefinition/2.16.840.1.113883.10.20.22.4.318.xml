@@ -30,7 +30,7 @@
     </contact>
     <description value="This template is intended to be used in addition to the **Product Instance** template urn:oid:2.16.840.1.113883.10.20.22.4.37 to exchange the MRI Safety Status of the patient's medical device. The UDI-DI of the medical device may be used to retrieve the **MRI Safety Status** in accessGUDID, which should be considered the source of truth."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

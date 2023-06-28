@@ -26,7 +26,7 @@
     </contact>
     <description value="The Mental Status Observation template represents an observation about mental status that can come from a broad range of subjective and objective information (including measured data) to address those categories described in the Mental Status Section. See also Assessment Scale Observation for specific collections of observations that together yield a summary evaluation of a particular condition."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

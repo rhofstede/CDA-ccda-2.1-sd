@@ -26,7 +26,7 @@
     </contact>
     <description value="This template represents problems or diagnoses present at the time of discharge which occurred during the hospitalization or need to be monitored after hospitalization. It requires at least one Problem Observation entry."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>

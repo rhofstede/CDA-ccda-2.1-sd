@@ -26,7 +26,7 @@
     </contact>
     <description value="This template represents the diagnosis or diagnoses discovered or confirmed during the procedure. They may be the same as preprocedure diagnoses or indications."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>

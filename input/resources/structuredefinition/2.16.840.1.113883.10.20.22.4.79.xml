@@ -26,7 +26,7 @@
     </contact>
     <description value="This template represents the observation that a patient has died. It also represents the cause of death, indicated by an entryRelationship type of CAUS. This template allows for more specific representation of data than is available with the use of dischargeDispositionCode."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

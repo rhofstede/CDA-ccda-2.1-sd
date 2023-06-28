@@ -30,7 +30,7 @@
     </contact>
     <description value="This template is used to express the care team type. A care team can have multiple care team types. Examples include but are not limited to: &#xA;* Condition focused, longitudinal care team&#xA;* Event focused, Home &amp; Community Based Services care team&#xA;* Condition focused, clinical research care team &#xA;* Public health focused, Longitudinal care-coordination care team&#xA;&#xA;"/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

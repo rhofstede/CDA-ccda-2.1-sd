@@ -30,7 +30,7 @@
     </contact>
     <description value="This template represents a generic participant person that has a relationship to the patient. (e.g., parent, next-of-kin, neighbor). The related person's name is required and it is recommended that the person's contact information is present. The more specific CDA participant of Guardian (recordTarget/patientRole/patient/guardian) can be used to represent a legally responsible guardian of the patient within the header. This template may be used to represent a person with any relationship to the patient within the header, or at the entry level when pertinent to a particular clinical statement."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Participant1"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Participant1"/>

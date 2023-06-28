@@ -26,7 +26,7 @@
     </contact>
     <description value="This clinical statement groups a set of advance directive observations."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>

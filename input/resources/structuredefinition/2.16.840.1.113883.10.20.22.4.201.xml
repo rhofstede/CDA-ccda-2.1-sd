@@ -30,7 +30,7 @@
     </contact>
     <description value="This observation represents the date and time range of the information contained in a section. It is an optional entry and may be used in any section."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

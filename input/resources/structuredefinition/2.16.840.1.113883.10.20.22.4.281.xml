@@ -30,7 +30,7 @@
     </contact>
     <description value="This template represents a patient's reported intention or desire in the next year to either become pregnant or prevent a future pregnancy. The effectiveTime.low represents the date the intention was recorded and the effectiveTime.high represents the date a year from the recorded date.&#xA;"/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

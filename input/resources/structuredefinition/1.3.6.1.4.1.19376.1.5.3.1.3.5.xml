@@ -24,7 +24,7 @@
     </contact>
     <description value="The Hospital Course Section describes the sequence of events from admission to discharge in a hospital facility."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>

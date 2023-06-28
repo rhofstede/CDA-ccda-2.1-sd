@@ -25,7 +25,7 @@
     </contact>
     <description value="This template represents planned acts that are not classified as an observation or a procedure according to the HL7 RIM. Examples of these acts are a dressing change, the teaching or feeding of a patient or the providing of comfort measures. &#xD;&#xA;The priority of the activity to the patient and provider is communicated through Priority Preference. The effectiveTime indicates the time when the activity is intended to take place."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>

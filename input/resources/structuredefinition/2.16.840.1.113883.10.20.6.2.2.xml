@@ -25,7 +25,7 @@
     </contact>
     <description value="This encounterParticipant is the attending physician and is usually different from the Physician Reading Study Performer defined in documentationOf/serviceEvent."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/EncounterParticipant"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/EncounterParticipant"/>

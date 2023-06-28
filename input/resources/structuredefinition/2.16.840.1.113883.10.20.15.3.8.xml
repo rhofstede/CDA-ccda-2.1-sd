@@ -24,7 +24,7 @@
     </contact>
     <description value="This clinical statement represents current and/or prior pregnancy dates enabling investigators to determine if the subject of the case report was pregnant during the course of a condition."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>

@@ -25,7 +25,7 @@
     </contact>
     <description value="This observation represents the gravity of the potential risk for future life-threatening adverse reactions when exposed to a substance known to cause an adverse reaction in that individual. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality."/>
     <fhirVersion value="4.0.1"/>
-    <kind value="resource"/>
+    <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
     <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
