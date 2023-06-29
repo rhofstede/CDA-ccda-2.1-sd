@@ -7,7 +7,7 @@
         <value value="urn:hl7ii:2.16.840.1.113883.10.20.22.4.18:2023-05-01"/>
     </identifier>
     <version value="2023-05-01"/>
-    <name value="Medication Dispense (V3)"/>
+    <name value="MedicationDispenseV3"/>
     <title value="Medication Dispense (V3)"/>
     <status value="draft"/>
     <publisher value="Namaste Informatics"/>

@@ -11,7 +11,7 @@
         <value value="urn:hl7ii:2.16.840.1.113883.10.20.22.4.503:2023-05-01"/>
     </identifier>
     <version value="2023-05-01"/>
-    <name value="Basic Occupation Observation"/>
+    <name value="BasicOccupationObservation"/>
     <title value="Basic Occupation Observation"/>
     <status value="draft"/>
     <publisher value="Namaste Informatics"/>
