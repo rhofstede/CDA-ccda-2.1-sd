@@ -182,9 +182,9 @@
                 <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.110"/>
             </type>
         </element>
-        <element id="Observation.entryRelationship:entryReference">
+        <element id="Observation.entryRelationship:entryReference2">
             <path value="Observation.entryRelationship"/>
-            <sliceName value="entryReference"/>
+            <sliceName value="entryReference2"/>
             <requirements value="MAY contain zero or more [0..*] entryRelationship (CONF:1098-31688) such that it"/>
             <min value="0"/>
             <max value="*"/>
@@ -194,14 +194,14 @@
                 <human value="This entryReference template **SHALL** reference an instance of a Intervention Act template (CONF:1098-32462)."/>
             </constraint>
         </element>
-        <element id="Observation.entryRelationship:entryReference.typeCode">
+        <element id="Observation.entryRelationship:entryReference2.typeCode">
             <path value="Observation.entryRelationship.typeCode"/>
             <requirements value="SHALL contain exactly one [1..1] @typeCode=&quot;RSON&quot; Has reason (CodeSystem: HL7ActRelationshipType urn:oid:2.16.840.1.113883.5.1002) (CONF:1098-31689)."/>
             <min value="1"/>
             <max value="1"/>
             <patternCode value="RSON"/>
         </element>
-        <element id="Observation.entryRelationship:entryReference.act">
+        <element id="Observation.entryRelationship:entryReference2.act">
             <path value="Observation.entryRelationship.act"/>
             <requirements value="SHALL contain exactly one [1..1] Entry Reference (identifier: urn:oid:2.16.840.1.113883.10.20.22.4.122) (CONF:1098-31690)."/>
             <min value="1"/>
