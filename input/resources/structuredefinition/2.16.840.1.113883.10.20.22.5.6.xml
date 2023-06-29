@@ -199,7 +199,7 @@
         </element>
         <element id="Author.assignedAuthor.representedOrganization">
             <path value="Author.assignedAuthor.representedOrganization"/>
-            <short value="representedOrganization"/>
+            <short value="representedOrganization" />
             <definition value="This assignedAuthor MAY contain zero or one [0..1] representedOrganization (CONF:4515-32978)."/>
             <min value="0"/>
             <max value="1"/>
