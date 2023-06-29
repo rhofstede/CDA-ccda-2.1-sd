@@ -2,7 +2,7 @@
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
     <id value="2.16.840.1.113883.10.20.22.4.132"/>
-    <url value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.132"/>
+    <url value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.132"/>
     <identifier>
         <value value="urn:hl7ii:2.16.840.1.113883.10.20.22.4.132:2022-06-01"/>
     </identifier>
@@ -159,7 +159,7 @@
             <max value="*"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.119"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.119"/>
             </type>
         </element>
         <element id="Act.entryRelationship">
@@ -201,7 +201,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.4"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.4"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship2">
@@ -228,7 +228,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.7"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.7"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship3">
@@ -255,7 +255,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.122"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.122"/>
             </type>
             <constraint>
                 <key value="4515-32860"/>
@@ -287,7 +287,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.122"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.122"/>
             </type>
             <constraint>
                 <key value="4515-32745"/>
@@ -319,7 +319,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.69"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.69"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship6">
@@ -346,7 +346,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.128"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.128"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship7">
@@ -373,7 +373,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.74"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.74"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship8">
@@ -400,7 +400,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.78"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.78"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship9">
@@ -427,7 +427,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.80"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.80"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship10">
@@ -454,7 +454,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.45"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.45"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship11">
@@ -481,7 +481,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.67"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.67"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship12">
@@ -508,7 +508,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.34"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.34"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship13">
@@ -535,7 +535,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.138"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.138"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship14">
@@ -562,7 +562,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.51"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.51"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship15">
@@ -589,7 +589,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.15.3.8"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.15.3.8"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship16">
@@ -616,7 +616,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.65"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.65"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship17">
@@ -643,7 +643,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.9"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.9"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship18">
@@ -670,7 +670,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.2"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.2"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship19">
@@ -697,7 +697,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.127"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.127"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship20">
@@ -724,7 +724,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.38"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.38"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship21">
@@ -751,7 +751,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.24.3.90"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.24.3.90"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship22">
@@ -778,7 +778,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.85"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.85"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship23">
@@ -805,7 +805,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.27"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.27"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship24">
@@ -832,7 +832,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.114"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.114"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship25">
@@ -859,7 +859,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.4"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.4"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship26">
@@ -886,7 +886,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.72"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.72"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship27">
@@ -913,7 +913,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.111"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.111"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship28">
@@ -940,7 +940,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.109"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.109"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship29">
@@ -967,7 +967,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.124"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.124"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship30">
@@ -994,7 +994,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Organizer"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.1"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.1"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship31">
@@ -1021,7 +1021,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.143"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.143"/>
             </type>
         </element>
         <element id="Act.entryRelationship:entryRelationship32">
@@ -1048,7 +1048,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Act"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.122"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.122"/>
             </type>
         </element>
         <element id="Act.reference">
@@ -1074,7 +1074,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/ExternalDocument"/>
-                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.115"/>
+                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.4.115"/>
             </type>
         </element>
     </differential>
