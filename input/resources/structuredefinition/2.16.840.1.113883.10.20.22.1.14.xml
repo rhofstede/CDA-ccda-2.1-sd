@@ -2,7 +2,7 @@
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
     <id value="2.16.840.1.113883.10.20.22.1.14"/>
-    <url value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.1.14"/>
+    <url value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.1.14"/>
     <identifier>
         <value value="urn:hl7ii:2.16.840.1.113883.10.20.22.1.14:2015-08-01"/>
     </identifier>
@@ -29,7 +29,7 @@
     <kind value="logical"/>
     <abstract value="false"/>
     <type value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
-    <baseDefinition value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.1.1"/>
+    <baseDefinition value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.1.1"/>
     <derivation value="constraint"/>
     <differential>
         <element id="ClinicalDocument">
@@ -124,7 +124,7 @@
             <max value="*"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/PN"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.5.1.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.5.1.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.participant">
@@ -181,7 +181,7 @@
             <max value="*"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/PN"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.5.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.5.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.participant:participant2">
@@ -301,7 +301,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.10"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.10"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:advanceDirectives">
@@ -318,7 +318,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.21"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.21"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:historyOfPresentIllness">
@@ -335,7 +335,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.4"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.4"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:familyHistory">
@@ -352,7 +352,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.15"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.15"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:immunizations">
@@ -369,7 +369,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.2.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.2.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:problem">
@@ -386,7 +386,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.5.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.5.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:procedures">
@@ -403,7 +403,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.7"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.7"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:results">
@@ -420,7 +420,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.3.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.3.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:reviewOfSystems">
@@ -437,7 +437,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.18"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.18"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:socialHistory">
@@ -454,7 +454,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.17"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.17"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:vitalSigns">
@@ -471,7 +471,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.4.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.4.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:functionalStatus">
@@ -488,7 +488,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.14"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.14"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:physicalExam">
@@ -505,7 +505,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.2.10"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.2.10"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:nutrition">
@@ -522,7 +522,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.57"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.57"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:mentalStatus">
@@ -539,7 +539,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.56"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.56"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:medicalEquip">
@@ -556,7 +556,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.23"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.23"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:allergiesAndIntolerances">
@@ -573,7 +573,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.6.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.6.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:assessment">
@@ -590,7 +590,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.8"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.8"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:assessmentAndPlan">
@@ -607,7 +607,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.9"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.9"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:medicalHistory">
@@ -624,7 +624,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.20"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.20"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:generalStatus">
@@ -641,7 +641,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.2.5"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.2.5"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:medications">
@@ -658,7 +658,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.1.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/2.16.840.1.113883.10.20.22.2.1.1"/>
             </type>
         </element>
         <element id="ClinicalDocument.component.structuredBody.component:reasonForReferral">
@@ -675,7 +675,7 @@
             <max value="1"/>
             <type>
                 <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
-                <profile value="http://hl7.org/cda/us/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+                <profile value="http://hl7.org/cda/stds/ccda/StructureDefinition/1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
             </type>
         </element>
     </differential>
