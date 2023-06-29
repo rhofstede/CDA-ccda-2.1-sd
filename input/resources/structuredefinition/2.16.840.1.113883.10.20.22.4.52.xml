@@ -51,14 +51,6 @@
                 <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.18"/>
             </binding>
         </element>
-        <element id="SubstanceAdministration.negationInd">
-            <path value="SubstanceAdministration.negationInd"/>
-            <label value="Use negationInd=&quot;true&quot; to indicate that the immunization was not given."/>
-            <short value="Use negationInd=&quot;true&quot; to indicate that the immunization was not given."/>
-            <requirements value="SHALL contain exactly one [1..1] @negationInd (CONF:1198-8985)."/>
-            <min value="1"/>
-            <max value="1"/>
-        </element>
         <element id="SubstanceAdministration.templateId">
             <path value="SubstanceAdministration.templateId"/>
             <slicing>
@@ -106,6 +98,14 @@
             <short value="SubstanceAdministration.code is an optional field. Per HL7 Pharmacy Committee, &quot;this is intended to further specify the nature of the substance administration act. To date the committee has made no use of this attribute&quot;. Because the type of substance administration is generally implicit in the routeCode, in the consumable participant, etc., the field is generally not used and there is no defined value set."/>
             <requirements value="MAY contain zero or one [0..1] code (CONF:1198-8830)."/>
             <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="SubstanceAdministration.negationInd">
+            <path value="SubstanceAdministration.negationInd"/>
+            <label value="Use negationInd=&quot;true&quot; to indicate that the immunization was not given."/>
+            <short value="Use negationInd=&quot;true&quot; to indicate that the immunization was not given."/>
+            <requirements value="SHALL contain exactly one [1..1] @negationInd (CONF:1198-8985)."/>
+            <min value="1"/>
             <max value="1"/>
         </element>
         <element id="SubstanceAdministration.statusCode">
