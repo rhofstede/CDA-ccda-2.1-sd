@@ -118,7 +118,7 @@
                     <path value="observation.resolve()"/>
                 </discriminator>
             </slicing>
-            <min value="0"/>
+            <min value="1"/>
             <max value="*"/>
         </element>
         <element id="Section.entry:healthStatus">
